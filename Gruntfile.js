@@ -428,11 +428,7 @@ module.exports = function (grunt) {
 
     // Test settings
     karma: {
-      // unit: {
-      //   configFile: 'karma.conf.js',
-      //   singleRun: true
-      // },
-      travis: {
+      unit: {
         configFile: 'karma.conf.js',
         singleRun: true,
         browsers: ['PhantomJS']
@@ -513,7 +509,7 @@ module.exports = function (grunt) {
         'clean:server',
         'concurrent:test',
         'autoprefixer',
-        'karma:travis'
+        'karma'
       ]);
     }
 
