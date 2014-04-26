@@ -1,8 +1,6 @@
 'use strict';
 
 angular.module('sakuraApp')
-  .controller('MainCtrl', function ($scope, $http) {
-    $http.get('/api/awesomeThings').success(function(awesomeThings) {
-      $scope.awesomeThings = awesomeThings;
-    });
+  .controller('MainCtrl', function ($scope, stellar) {
+    stellar.window();
   });

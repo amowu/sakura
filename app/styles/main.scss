@@ -13,6 +13,26 @@ html, body {
   height: 100%;
 }
 
+@import "compass/css3";
+
+#s1 {
+  background: {
+    image: image-url("s1.jpg");
+    repeat: no-repeat;
+    position: top left;
+  };
+  @include background-size(cover);
+}
+
+#s2 {
+  background: {
+    image: image-url("s2.jpg");
+    repeat: no-repeat;
+    position: top left;
+  };
+  @include background-size(cover);
+}
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 

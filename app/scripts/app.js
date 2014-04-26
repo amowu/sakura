@@ -15,6 +15,6 @@ angular.module('sakuraApp', [
       .otherwise({
         redirectTo: '/'
       });
-      
+
     $locationProvider.html5Mode(true);
   });
