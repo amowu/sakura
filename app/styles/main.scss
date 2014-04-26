@@ -9,12 +9,13 @@ html, body {
   height: 100%;
 }
 
-.fill {
+.full {
   height: 100%;
 }
 
 @import "compass/css3";
 
+// TODO:
 #s1 {
   background: {
     image: image-url("s1.jpg");
@@ -23,7 +24,6 @@ html, body {
   };
   @include background-size(cover);
 }
-
 #s2 {
   background: {
     image: image-url("s2.jpg");
