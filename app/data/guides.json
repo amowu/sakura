@@ -1,0 +1,32 @@
+[
+  {
+    "name": "二本柱の会",
+    "detail": "<p>AKB48公式ファンクラブ「二本柱の会」会員</p><p class='text-muted'>詳しいアクセス方法はこちら<br/><a target='_blank' href='http://www.akb48.co.jp/fanclub/'>http://www.akb48.co.jp/fanclub/</a></p>",
+    "class": "guide-fanclub"
+  },
+  {
+    "name": "AKB48 36thシングル",
+    "detail": "<p>AKB48 36thシングル「ラブラドール・レトリバー」<br/>初回限定盤／通常盤／劇場盤CD</p><p class='text-muted'>詳細はこちら<br/><a target='_blank' href='http://www.kingrecords.co.jp/akb48/'>http://www.kingrecords.co.jp/akb48/</a></p></p>",
+    "class": "guide-single"
+  },
+  {
+    "name": "Mobile会員",
+    "detail": "<p><a target='_blank' href='http://www.akb48.co.jp/mobile/'>AKB48 Mobile</a></p><p><a target='_blank' href='http://www.ske48.co.jp/ske48mobile/'>SKE48 Mobile</a></p><p><a target='_blank' href='http://www.nmb48.com/nmb48mobile/'>NMB48 Mobile</a></p><p><a target='_blank' href='http://www.hkt48.jp/mobile/'>HKT48 Mobile</a></p>",
+    "class": "guide-mobile"
+  },
+  {
+    "name": "AKB OFFICIAL NET会員",
+    "detail": "<p class='text-muted'>詳しいアクセス方法はこちら<br/><a target='_blank' href='http://www.akb48.ne.jp/'>http://www.akb48.ne.jp/</a></p>",
+    "class": "guide-official"
+  },
+  {
+    "name": "AKB48 公式スマートフォンアプリ会員",
+    "detail": "<p>iOS<br/><a target='_blank' href='http://exci.to/akb48_iphone'>http://exci.to/akb48_iphone</a></p><p>Android<br/><a target='_blank' href='http://exci.to/akb48_android'>http://exci.to/akb48_android</a></p>",
+    "class": "guide-app"
+  },
+  {
+    "name": "DMM月額見放題会員",
+    "detail": "<p><a target='_blank' href='http://www.dmm.com/lod/akb48/'>AKB48</a></p><p><a target='_blank' href='http://www.dmm.com/lod/ske48/'>SKE48</a></p><p><a target='_blank' href='http://www.dmm.com/lod/nmb48/'>NMB48</a></p><p><a target='_blank' href='http://www.dmm.com/lod/hkt48/'>HKT48</a></p>",
+    "class": "guide-dmm"
+  }
+]

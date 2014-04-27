@@ -1,0 +1,21 @@
+@import "compass/utilities/sprites";
+@import "guide/*.png";
+@import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
+
+@include all-guide-sprites;
+
+.marketing {
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+  }
+  .col-sm-4 {
+    text-align: center;
+  }
+  .icon {
+    width: 140px;
+    height: 140px;
+    @extend .center-block;
+    @extend .img-circle;
+  }
+}
