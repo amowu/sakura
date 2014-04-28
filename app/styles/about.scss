@@ -1,0 +1,11 @@
+@import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
+
+.featurette {
+  .col-md-5 {
+    img {
+      @extend .center-block;
+      @extend .img-responsive;
+      @extend .img-rounded;
+    }
+  }
+}
