@@ -14,24 +14,6 @@ html, body {
 
 @import "compass/css3";
 
-// TODO:
-#s1 {
-  background: {
-    image: image-url("s1.jpg");
-    repeat: no-repeat;
-    position: top left;
-  };
-  @include background-size(cover);
-}
-#s2 {
-  background: {
-    image: image-url("s2.jpg");
-    repeat: no-repeat;
-    position: top left;
-  };
-  @include background-size(cover);
-}
-
 video {
   top: 0;
   left: 0;
