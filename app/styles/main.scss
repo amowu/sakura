@@ -18,10 +18,13 @@ video {
   top: 0;
   left: 0;
   position: fixed;
+  width: auto;
+  height: auto;
   min-width: 100%;
   min-height: 100%;
   z-index: -1000;
-  size: cover;
+  // TODO: background: url(images/poster.jpg) no-repeat;
+  @include background-size(cover);
 }
 
 /* Extra small devices (phones, less than 768px) */

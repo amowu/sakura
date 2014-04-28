@@ -1,6 +1,9 @@
-<!-- TODO: -->
-<video autoplay loop stellar-ratio="0.5">
-  <source src="videos/sakura.webm"/>
+<!-- TODO: add poster -->
+<video autoplay loop muted poster="" stellar-ratio="0.5">
+  <source src="videos/sakura.webmhd.webm"/>
+  <source src="videos/sakura.webmsd.webm"/>
+  <source src="videos/sakura.mp4"/>
+  <source src="videos/sakura.ogv"/>
 </video>
 <div class="full">
   <div class="container">
@@ -10,15 +13,9 @@
     </div>
   </div>
 </div>
+<div style="background-color:white;" ng-include="'partials/about'"></div>
 <hr>
-<div class="container" ng-include="'partials/about'"></div>
+<!-- TODO: post -->
+<div style="background-color:white;" ng-include="'partials/guide'"></div>
 <hr>
-<div class="container marketing" ng-include="'partials/guide'"></div>
-<hr>
-
-<div></div>
-<div></div>
-
-<!--
-<div ng-include="'partials/poster'"></div>
--->
+<!-- TODO: footer -->
