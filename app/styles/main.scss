@@ -8,6 +8,10 @@ html, body {
   height: 100%;
 }
 
+body {
+  background-color: #FCDFE5;
+}
+
 .full {
   height: 100%;
 }
@@ -27,11 +31,97 @@ video {
   @include background-size(cover);
 }
 
+// $navbar-height: 75px;
+// $navbar-margin-bottom: 0px;
+// $navbar-border-radius: 0px;
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  min-height: 75px;
+  height: 75px;
+  margin-bottom: 0px;
+  bottom: -5px;
+}
+.navbar.fixed {
+  position: fixed;
+  top: 0px;
+}
+.navbar-sakura {
+  background-color: #FFB5C6;
+  border-bottom-style: solid;
+  border-bottom-color: #e4a1b1;
+  border-bottom-width: 5px;
+}
+
+#cover {
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+  }
+}
+
+#about {
+  background-color: #F5F8EE;
+
+  border-bottom-style: solid;
+  border-bottom-color: #dbddd4;
+  border-bottom-width: 5px;
+
+  .featurette {
+    .col-md-5 {
+      img {
+        @extend .center-block;
+        @extend .img-responsive;
+        @extend .img-rounded;
+      }
+    }
+  }
+}
+
+@import "compass/utilities/sprites";
+@import "guide/*.png";
+@include all-guide-sprites;
+
+#guide {
+  background-color: #E2E9D4;
+
+  border-bottom-style: solid;
+  border-bottom-color: #cad0bd;
+  border-bottom-width: 5px;
+
+  .marketing {
+    .jumbotron {
+      text-align: center;
+      background-color: transparent;
+    }
+    .col-sm-4 {
+      text-align: center;
+    }
+    .icon {
+      width: 140px;
+      height: 140px;
+      @extend .center-block;
+      @extend .img-circle;
+    }
+  }
+}
+
+#footer {
+  height: 300px;
+  background-color: #63714D;
+}
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: $screen-sm-min) {}
+@media (min-width: $screen-sm-min) {
+  .navbar {
+    border-radius: 0px;
+  }
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {}

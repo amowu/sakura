@@ -5,17 +5,42 @@
   <source src="videos/sakura.mp4"/>
   <source src="videos/sakura.ogv"/>
 </video>
-<div class="full">
-  <div class="container">
-    <div class="carousel-caption">
-      <h2>AKB48 37th 選抜総選挙</h2>
-      <h1>HKT48 宮脇咲良 応援サイト</h1>
+
+<nav sticky class="navbar navbar-sakura" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- TODO: add official link -->
+      <a class="navbar-brand" href="#"><img src="images/navbar/logo.png" alt="" /></a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div id="cover" class="full">
+  <div class="carousel-caption">
+    <div class="jumbotron">
+      <img class="img-responsive img-circle center-block" src="images/cover/profile.png" alt="宮脇咲良" />
+      <h1>宮脇咲良</h1>
+      <h2>AKB48 37th 選抜総選挙 応援サイト</h2>
     </div>
   </div>
 </div>
-<div style="background-color:white;" ng-include="'partials/about'"></div>
-<hr>
+<div id="about" ng-include="'partials/about'"></div>
 <!-- TODO: post -->
-<div style="background-color:white;" ng-include="'partials/guide'"></div>
-<hr>
+<div id="guide" ng-include="'partials/guide'"></div>
 <!-- TODO: footer -->
+<div id="footer"></div>
