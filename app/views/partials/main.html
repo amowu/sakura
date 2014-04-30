@@ -1,5 +1,5 @@
 <!-- TODO: add poster -->
-<video autoplay loop muted poster="" stellar-ratio="0.5">
+<video autoplay loop muted poster="images/cover/cover.jpg" stellar-ratio="0.5">
   <source src="videos/sakura.webmhd.webm"/>
   <source src="videos/sakura.webmsd.webm"/>
   <source src="videos/sakura.mp4"/>
@@ -33,12 +33,97 @@
 <div id="cover" class="full">
   <div class="carousel-caption">
     <div class="jumbotron">
-      <img class="img-responsive img-circle center-block" src="images/cover/profile.png" alt="宮脇咲良" />
-      <h1>宮脇咲良</h1>
-      <h2>AKB48 37th 選抜総選挙 応援サイト</h2>
+      <img tooltip-placement="bottom" tooltip="123" class="img-responsive img-circle center-block" src="images/cover/profile.png" alt="宮脇咲良" />
+      <h1>{{ 'SAKURA_NAME' | translate }}</h1>
+      <h2>{{ 'SAKURA_TITLE' | translate }}</h2>
     </div>
   </div>
 </div>
+<!-- <div id="profile" stellar-background-ratio="0.5">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-8">
+        <h2>關於 {{ 'SAKURA_NAME' | translate }}</h2>
+      </div>
+    </div>
+    <div class="row" style="color:#ffffff">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4">
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <div class="col-xs-3">
+              <p class="form-control-static text-muted">暱稱</p>
+            </div>
+            <div class="col-xs-9">
+              <p class="form-control-static">小櫻花</p>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-xs-3">
+              <p class="form-control-static text-muted">生日</p>
+            </div>
+            <div class="col-sm-9">
+              <p class="form-control-static">1998年3月19日</p>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-xs-3">
+              <p class="form-control-static text-muted">血型</p>
+            </div>
+            <div class="col-sm-9">
+              <p class="form-control-static">A</p>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-xs-3">
+              <p class="form-control-static text-muted">出身地</p>
+            </div>
+            <div class="col-sm-9">
+              <p class="form-control-static">鹿兒島縣</p>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-sm-4">
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <div class="col-xs-3">
+              <p class="form-control-static text-muted">身高</p>
+            </div>
+            <div class="col-sm-9">
+              <p class="form-control-static">160cm</p>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-xs-3">
+              <p class="form-control-static text-muted">興趣</p>
+            </div>
+            <div class="col-sm-9">
+              <p class="form-control-static">音樂劇鑑賞</p>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-xs-3">
+              <p class="form-control-static text-muted">特技</p>
+            </div>
+            <div class="col-sm-9">
+              <p class="form-control-static">繪畫</p>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-xs-3">
+              <p class="form-control-static text-muted">特色</p>
+            </div>
+            <div class="col-sm-9">
+              <p class="form-control-static">大耳朵</p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div> -->
 <div id="about" ng-include="'partials/about'"></div>
 <!-- TODO: post -->
 <div id="guide" ng-include="'partials/guide'"></div>
