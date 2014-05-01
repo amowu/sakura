@@ -1,0 +1,32 @@
+[
+  {
+    "name": "VOTING_GUIDE_FANCLUB_TITLE",
+    "detail": "VOTING_GUIDE_FANCLUB_DETAIL",
+    "class": "guide-fanclub"
+  },
+  {
+    "name": "VOTING_GUIDE_SINGLE_TITLE",
+    "detail": "VOTING_GUIDE_SINGLE_DETAIL",
+    "class": "guide-single"
+  },
+  {
+    "name": "VOTING_GUIDE_MOBILE_TITLE",
+    "detail": "VOTING_GUIDE_MOBILE_DETAIL",
+    "class": "guide-mobile"
+  },
+  {
+    "name": "VOTING_GUIDE_OFFICIAL_TITLE",
+    "detail": "VOTING_GUIDE_OFFICIAL_DETAIL",
+    "class": "guide-official"
+  },
+  {
+    "name": "VOTING_GUIDE_APP_TITLE",
+    "detail": "VOTING_GUIDE_APP_DETAIL",
+    "class": "guide-app"
+  },
+  {
+    "name": "VOTING_GUIDE_DMM_TITLE",
+    "detail": "VOTING_GUIDE_DMM_DETAIL",
+    "class": "guide-dmm"
+  }
+]

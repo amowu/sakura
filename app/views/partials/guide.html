@@ -1,0 +1,13 @@
+<div class="container marketing">
+  <div class="jumbotron">
+    <h1>{{ 'VOTING_METHOD' | translate }}</h1>
+    <p>{{ 'VOTEING_DATETIME' | translate }}</p>
+  </div>
+  <div class="row">
+    <div class="col-sm-4" ng-repeat="guide in guides">
+      <div class="icon {{ guide.class }}"></div>
+      <h2>{{ guide.name | translate }}</h2>
+      <p ng-bind-html="guide.detail | translate"></p>
+    </div>
+  </div>
+</div>
