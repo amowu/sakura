@@ -6,39 +6,57 @@
   <source src="videos/sakura.ogv"/>
 </video>
 
-<nav sticky class="navbar navbar-sakura" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <!-- TODO: add official link -->
-      <a class="navbar-brand" href="#"><img src="images/navbar/logo.png" alt="" /></a>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+<div id="sticky-navbar">
+  <nav sticky class="navbar navbar-sakura" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- TODO: add official link -->
+        <a class="navbar-brand" href="#"><img src="images/navbar/logo.png" class="img-responsive" alt="{{ 'SAKURA_TITLE' | translate }}" /></a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav"></ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <img src="images/navbar/name.png" class="img-responsive" alt="{{ 'SAKURA_NAME' | translate }}" />
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</div>
 
 <div id="cover" class="full">
+
+  <div id="social-button" class="pull-right">
+    <!-- AddThis Button BEGIN -->
+    <div class="addthis_toolbox addthis_default_style">
+    <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+    <a class="addthis_button_facebook_share" fb:share:layout="button_count"></a>
+    <a class="addthis_button_tweet"></a>
+    <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+    </div>
+    <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53622fff2310e1e5"></script>
+    <!-- AddThis Button END -->
+  </div>
+
   <div class="carousel-caption">
     <div class="jumbotron">
-      <img tooltip-placement="bottom" tooltip="123" class="img-responsive img-circle center-block" src="images/cover/profile.png" alt="宮脇咲良" />
+      <img class="img-responsive img-circle center-block" src="images/cover/profile.png" alt="宮脇咲良" />
       <h1>{{ 'SAKURA_NAME' | translate }}</h1>
       <h2>{{ 'SAKURA_TITLE' | translate }}</h2>
     </div>
   </div>
 </div>
+
 <!-- <div id="profile" stellar-background-ratio="0.5">
   <div class="container">
     <div class="row">
@@ -124,6 +142,7 @@
     </div>
   </div>
 </div> -->
+
 <div id="about" ng-include="'partials/about'"></div>
 <!-- TODO: post -->
 <div id="guide" ng-include="'partials/guide'"></div>
