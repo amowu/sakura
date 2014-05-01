@@ -2,6 +2,11 @@
 
 $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
 
+@import "compass/utilities/sprites";
+
+@import "guide/*.png";
+@include all-guide-sprites;
+
 $color-sakura: rgb(254, 223, 225);
 
 html, body {
@@ -27,12 +32,6 @@ video {
   min-width: 100%;
   min-height: 100%;
   z-index: -1000;
-  // TODO: on mobile?
-  //background: {
-  //  image: image-url("cover/cover3.jpg");
-  //  repeat: no-repeat;
-  //  position: top right;
-  //};
   @include background-size(cover);
 }
 
@@ -75,23 +74,6 @@ video {
   }
 }
 
-#profile {
-  // height: 300px;
-  background: {
-    color: #63714D;
-    image: image-url("profile/cover.jpg");
-    repeat: no-repeat;
-    position: top left;
-  };
-  @include background-size(cover);
-
-  .form-group {
-    // border-top-style: solid;
-    // border-top-color: #ffffff;
-    // border-top-width: 1px;
-  }
-}
-
 #about {
   // TODO: other screen
   padding-top: 30px;
@@ -115,10 +97,6 @@ video {
     }
   }
 }
-
-@import "compass/utilities/sprites";
-@import "guide/*.png";
-@include all-guide-sprites;
 
 #guide {
   background-color: #E2E9D4;
