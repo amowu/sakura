@@ -135,15 +135,74 @@ video {
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
+// TODO: temp
+#cover {
+  .carousel-caption {
+    .jumbotron {
+      img {
+        width: 100px;
+        height: 100px;
+      }
+      h2 {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min) {
   .navbar {
     border-radius: 0px;
   }
+  // TODO: temp
+  #cover {
+    .carousel-caption {
+      .jumbotron {
+        img {
+          width: 200px;
+          height: 200px;
+        }
+        h2 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: $screen-md-min) {}
+@media (min-width: $screen-md-min) {
+  // TODO: temp
+  #cover {
+    .carousel-caption {
+      .jumbotron {
+        img {
+          width: 200px;
+          height: 200px;
+        }
+        h2 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: $screen-lg-min) {}
+@media (min-width: $screen-lg-min) {
+  // TODO: temp
+  #cover {
+    .carousel-caption {
+      .jumbotron {
+        img {
+          width: 200px;
+          height: 200px;
+        }
+        h2 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
