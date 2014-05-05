@@ -1,9 +1,9 @@
-<!-- TODO: add poster -->
-<video autoplay loop muted class="hidden-xs" stellar-ratio="0.5" poster="https://dl.dropboxusercontent.com/u/9860880/cdn/tpe48/sakura/cover.jpg">
-  <!-- TODO: CDN -->
-  <source src="https://dl.dropboxusercontent.com/u/9860880/cdn/tpe48/sakura/videos/sakura.webmhd.webm"/>
-  <source src="https://dl.dropboxusercontent.com/u/9860880/cdn/tpe48/sakura/videos/sakura.mp4"/>
-  <source src="https://dl.dropboxusercontent.com/u/9860880/cdn/tpe48/sakura/videos/sakura.ogv"/>
+<!-- TODO: remove hidden-xs -->
+<video class="hidden-xs" autoplay loop muted stellar-ratio="0.5" poster="http://cdn.tpe48.com.tw/sakura/images/cover.jpg">
+  <source src="http://cdn.tpe48.com.tw/sakura/videos/sakura.webmhd.webm" type="video/webm"/>
+  <source src="http://cdn.tpe48.com.tw/sakura/videos/sakura.mp4" type="video/mp4"/>
+  <source src="http://cdn.tpe48.com.tw/sakura/videos/sakura.ogv" type="video/ogg"/>
+  <!-- TODO: Your browser does not support the <code>video</code> element. -->
 </video>
 
 <div id="sticky-navbar">
@@ -17,8 +17,9 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <!-- TODO: add official link -->
-        <a class="navbar-brand" href="#"><img src="images/navbar/logo.png" class="img-responsive" alt="{{ 'SAKURA_TITLE' | translate }}" /></a>
+        <div class="navbar-brand">
+          <img src="images/navbar/logo.png" class="img-responsive" alt="{{ 'SAKURA_TITLE' | translate }}" />
+        </div>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
