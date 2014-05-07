@@ -2,13 +2,6 @@
 
 var express = require('express');
 
-// TODO: Firefox mime issue
-// express.static.mime.define({
-//   'video/mp4': ['mp4'],
-//   'video/webm': ['webm'],
-//   'video/ogg': ['ogv']
-// });
-
 /**
  * Main application file
  */
