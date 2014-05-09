@@ -5,7 +5,8 @@ angular.module('sakuraApp', [
   'ngResource',
   'ngSanitize',
   'ngRoute',
-  'pascalprecht.translate'
+  'pascalprecht.translate',
+  'angular-parallax'
 ])
   .config(function ($routeProvider, $locationProvider, $translateProvider) {
     $routeProvider
