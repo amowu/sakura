@@ -1,6 +1,6 @@
 'use strict';
 
-describe('Directive: stellar', function () {
+describe('Directive: magnificPopup', function () {
 
   // load the directive's module
   beforeEach(module('sakuraApp'));
@@ -13,8 +13,8 @@ describe('Directive: stellar', function () {
   }));
 
   it('should make hidden element visible', inject(function ($compile) {
-    //element = angular.element('<stellar></stellar>');
-    //element = $compile(element)(scope);
-    //expect(element.text()).toBe('this is the stellar directive');
+    // element = angular.element('<magnific-popup></magnific-popup>');
+    // element = $compile(element)(scope);
+    // expect(element.text()).toBe('this is the magnificPopup directive');
   }));
 });

@@ -21,6 +21,7 @@ module.exports = function(config) {
       'app/bower_components/jquery.stellar/jquery.stellar.js',
       'app/bower_components/angular-translate/angular-translate.js',
       'app/bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.js',
+      'app/bower_components/angular-parallax/scripts/angular-parallax.js',
       'app/scripts/*.js',
       'app/scripts/**/*.js',
       'test/client/mock/**/*.js',
