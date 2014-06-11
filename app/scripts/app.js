@@ -11,11 +11,14 @@ angular.module('sakuraApp', [
   .config(function ($routeProvider, $locationProvider, $translateProvider) {
     $routeProvider
       .when('/', {
+        redirectTo: '/2014'
+      })
+      .when('/2014', {
         templateUrl: 'partials/main',
         controller: 'MainCtrl'
       })
       .otherwise({
-        redirectTo: '/'
+        redirectTo: '/2014'
       });
 
     $locationProvider.html5Mode(true);
