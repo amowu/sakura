@@ -8,9 +8,4 @@ body {
   height: 100%;
 }
 
-@import 'guide.scss';
-@import 'candidacy.scss';
-@import 'birthday.scss';
-@import 'appeal.scss';
-@import 'sokuhou.scss';
-@import 'result.scss';
+@import 'pages/_home.scss';
