@@ -1,16 +1,13 @@
 @import "compass/utilities/sprites";
-@import "guide/*.png";
-
 @import 'helpers/_variables.scss';
+@import "guide/*.png";
 
 @include all-guide-sprites;
 
 #guide {
-
   background-color: $color-lightly-salted;
 
-  .icon-circle {
-    @extend .img-circle;
+  .icon {
     width: 140px;
     height: 140px;
   }
