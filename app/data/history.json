@@ -1,0 +1,23 @@
+[
+  {
+    "year": 2012,
+    "poster": "images/history/2012/poster_2012.png",
+    "posterThumbnail": "images/history/2012/poster_2012_thumb.png",
+    "shousai": "images/history/2012/shousai_2012.png",
+    "shousaiThumbnail": "images/history/2012/shousai_2012_thumb.png"
+  },
+  {
+    "year": 2013,
+    "poster": "images/history/2013/poster_2013.png",
+    "posterThumbnail": "images/history/2013/poster_2013_thumb.png",
+    "shousai": "images/history/2013/shousai_2013.png",
+    "shousaiThumbnail": "images/history/2013/shousai_2013_thumb.png"
+  },
+  {
+    "year": 2014,
+    "poster": "images/history/2014/poster_2014.png",
+    "posterThumbnail": "images/history/2014/poster_2014_thumb.png",
+    "shousai": "images/history/2014/shousai_2014.png",
+    "shousaiThumbnail": "images/history/2014/shousai_2014_thumb.png"
+  }
+]
