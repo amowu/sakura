@@ -1,4 +1,5 @@
 @import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
+@import "compass/css3";
 
 html {
   height: 100%;
@@ -6,6 +7,66 @@ html {
 
 body {
   height: 100%;
+  background-color: #FCDFE5;
+  background-image: url('http://cdn.tpe48.com.tw/sakura/images/cover20140826.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  @include background-size(cover);
+}
+
+video {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1000;
+  @include background-size(cover);
+}
+
+.full {
+  height: 100%;
+}
+
+#social-button {
+  padding-top: 10px;
+}
+
+#navbar {
+  .navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    min-height: 75px;
+    height: 75px;
+    margin-bottom: 0px;
+    bottom: -5px;
+    .navbar-right {
+      img {
+        margin-top: 10px;
+      }
+    }
+  }
+  .navbar.fixed {
+    position: fixed;
+    top: 0px;
+  }
+  .navbar-sakura {
+    background-color: #FFB5C6;
+    border-bottom-style: solid;
+    border-bottom-color: #e4a1b1;
+    border-bottom-width: 5px;
+  }
+}
+
+#cover {
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+  }
 }
 
 @import 'pages/_home.scss';

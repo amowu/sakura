@@ -1,5 +1,9 @@
 <div id="guide">
   <div class="container">
+    <div class="jumbotron">
+      <h1>{{ 'VOTING_METHOD' | translate }}</h1>
+      <p>{{ 'VOTEING_DATETIME' | translate }}</p>
+    </div>
     <div class="row" ng-repeat="(guideIdx,guide) in guides" ng-if="guideIdx % 3 == 0">
       <div class="col-sm-4" ng-repeat="elemIdx in [0,1,2]" ng-if="guides[guideIdx+elemIdx]">
         <div class="center-block img-circle icon {{ guides[guideIdx+elemIdx].class }}"></div>
