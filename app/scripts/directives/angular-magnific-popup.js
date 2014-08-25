@@ -17,6 +17,11 @@ angular.module('sakuraApp')
                 // id: function(url) { return 'parsed id'; }
                 src: '//www.youtube.com/embed/%id%?autoplay=1' // URL that will be set as a source for iframe.
               },
+              yoku: {
+                index: 'youku.com/',
+                id: 'embed/',
+                src: '//player.youku.com/embed/%id%'
+              }
             }
           }
         });

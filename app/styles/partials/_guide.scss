@@ -1,0 +1,22 @@
+@import "compass/utilities/sprites";
+@import 'helpers/_variables.scss';
+@import "guide/*.png";
+
+@include all-guide-sprites;
+
+#guide {
+  background-color: $color-lightly-salted;
+  border-bottom-style: solid;
+  border-bottom-color: #cad0bd;
+  border-bottom-width: 5px;
+
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+  }
+
+  .icon {
+    width: 140px;
+    height: 140px;
+  }
+}
