@@ -88,7 +88,7 @@ Preview the app (with Livereload).
 $ grunt serve
 ```
 
-![result]()
+![result](http://i.imgur.com/j6hY1RL.jpg)
 
 Run the unit tests for the app.
 
