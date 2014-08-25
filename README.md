@@ -6,7 +6,7 @@ This project is a cheering web page for HKT48 member [宮脇咲良](http://www.h
 
 ### [http://sakura.tpe48.com.tw](http://sakura.tpe48.com.tw)
 
-[![Build Status](https://travis-ci.org/amowu/sakura.svg?branch=master)](https://travis-ci.org/amowu/sakura)
+[![Build Status](https://travis-ci.org/amowu/sakura.svg?branch=develop)](https://travis-ci.org/amowu/sakura)
 
 ## Project Structure
 
