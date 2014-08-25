@@ -1,14 +1,38 @@
 <!-- TODO: <div id="video" ng-include="'partials/video'"/> -->
 <!-- TODO: remove hidden-xs -->
-<!-- <video class="hidden-xs" autoplay poster="http://cdn.tpe48.com.tw/sakura/images/cover.jpg" loop parallax parallax-ratio="-0.5"> -->
-  <!-- <source src="http://cdn.tpe48.com.tw/sakura/videos/cover.mp4" typr="video/mp4" /> -->
-  <!-- <source src="http://cdn.tpe48.com.tw/sakura/videos/cover.ogv" type="video/ogg" /> -->
-  <!-- <source src="http://cdn.tpe48.com.tw/sakura/videos/cover.webm" type="video/webm" /> -->
+<video class="hidden-sm hidden-xs" autoplay loop parallax parallax-ratio="-0.5">
+  <source src="http://cdn.tpe48.com.tw/sakura/videos/cover.mp4" typr="video/mp4" />
+  <source src="http://cdn.tpe48.com.tw/sakura/videos/cover.ogv" type="video/ogg" />
+  <source src="http://cdn.tpe48.com.tw/sakura/videos/cover.webm" type="video/webm" />
   <!-- TODO: Your browser does not support the <code>video</code> element. -->
-<!-- </video> -->
-<!-- <div id="navbar" ng-include="'partials/navbar'"></div> -->
+</video>
+<div id="navbar" ng-include="'partials/navbar'"></div>
+<div id="cover" class="full">
+  <div id="social-button" class="pull-right">
+    <!-- AddThis Button BEGIN -->
+    <div class="addthis_toolbox addthis_default_style">
+    <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+    <a class="addthis_button_facebook_share" fb:share:layout="button_count"></a>
+    <a class="addthis_button_tweet"></a>
+    <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+    </div>
+    <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53622fff2310e1e5"></script>
+    <!-- AddThis Button END -->
+  </div>
+  <div class="carousel-caption">
+    <div class="jumbotron">
+      <img class="img-responsive img-circle center-block" src="images/cover/profile.png" alt="宮脇咲良" />
+      <h1>{{ 'SAKURA_NAME' | translate }}</h1>
+      <h1 class="hidden-sm hidden-xs">{{ 'SAKURA_TITLE_RESULT' | translate }}</h1>
+      <h1 class="hidden-sm hidden-xs">{{ 'SAKURA_TITLE_RESULT_EMO' | translate }}</h1>
+      <h2 class="hidden-xs">{{ 'SAKURA_TITLE' | translate }}</h2>
+    </div>
+  </div>
+</div>
 <!-- TODO: mix full -->
-<div ng-include="'partials/_history'"></div>
+<!-- <div ng-include="'partials/_history'"></div> -->
+
 <div ng-include="'partials/_result'"></div>
 <div ng-include="'partials/_sokuhou'"></div>
 <div ng-include="'partials/_appeal'"></div>
